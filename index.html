@@ -11,14 +11,16 @@
     <body>
         <div class="container" id="header-container">
             <header class="dark-text">
-                <div id="logo" class="media">
-                    <a href="index.html">
-                        <img class="logo-img" src="img/aquino_logo.jpg" alt="Aquino's Logo">
-                    </a>
-                </div>
-                <div id="name-content" class="name-content">
-                    <h1>GABRIEL AQUINO</h1>
-                    <h2>JAVA DEVELOPER</h2>
+                <div class="row">
+                    <div id="logo-content" class="col-md-2 col-xs-12 col-sm-3 col-lg-2">
+                        <a href="index.html" class="logo-link">
+                            <img class="logo-img" src="img/aquino_logo.jpg" alt="Aquino's Logo">
+                        </a>
+                    </div>
+                    <div id="name-content" class="name-content col-md-10 col-xs-12 col-sm-9 col-lg-10">
+                        <h1>GABRIEL AQUINO</h1>
+                        <h2>JAVA DEVELOPER</h2>
+                    </div>
                 </div>
             </header>
         </div>
@@ -26,34 +28,39 @@
         <div class="container" id="main-container">
             <main>
                 <img src="img/main.jpeg" alt="main" class="main-img img-responsive">
-                <div class="light-text row" id="featured-work-container">
-                    <h2>Featured Work</h2>
+                <h2 class="light-text">Featured Work</h2>
+                <div class="light-text row featured-work-content" id="featured-work-container">
                     <div id="featured-work-portifolio" class="col-md-4">
-                        <h3 id="entertainment-center">
-                            <a href="https://github.com/midian/ud036_StarterCode" target="_blank" class="dark-text">
-                                <img src="img/entertainment_center.png" alt="Entertainment Center" class="featured-work-img img-responsive">
-                                Entertainment Center
-                            </a>
-                        </h3>
+                        <img src="img/entertainment_center.png" alt="Entertainment Center" class="featured-work-img img-responsive">
+                        <h2 class="dark-text">
+                            <strong class="featured-work-name">Entertainment Center</strong>
+                        </h2>
+                        <a href="https://github.com/midian/ud036_StarterCode" target="_blank">
+                            <p>
+                                https://github.com/midian/ud036_StarterCode
+                            </p>
+                        </a>
                     </div>
-                    <div id="featured-work-coming-1" class="col-md-4">
-                        <h3>
-                            <a href="https://github.com/midian/ud036_StarterCode" target="_blank" class="dark-text">
-                                <img src="img/entertainment_center.png" alt="Entertainment Center" class="featured-work-img img-responsive">
-                                Entertainment Center
-                            </a>
-                        </h3>
+                    <div id="featured-work-eventools" class="col-md-4">
+                        <img src="img/eventools.jpg" alt="Eventools" class="featured-work-img img-responsive">
+                        <h2 class="dark-text">
+                            <strong class="featured-work-name">Eventools</strong>
+                        </h2>
+                        <p>Comming Soon</p>
                     </div>
-                    <div id="featured-work-coming-2" class="col-md-4">
-                        <h3>
-                            <a href="https://github.com/midian/ud036_StarterCode" target="_blank" class="dark-text">
-                                <img src="img/entertainment_center.png" alt="Entertainment Center" class="featured-work-img img-responsive">
-                                Entertainment Center
-                            </a>
-                        </h3>
+                    <div id="featured-work-pic" class="col-md-4 ">
+                        <img src="img/pic.jpg" alt="PIC" class="featured-work-img img-responsive">
+                        <h2 class="dark-text">
+                            <strong class="featured-work-name">PIC</strong>
+                        </h2>
+                        <p>Comming Soon</p>
                     </div>
                 </div>
             </main>
+        </div>
+        <hr class="footer-line">
+        <div class="container" id="footer-content">
+            <p>Udacity's Portifolio Project Created By <a href="https://github.com/midian/" target="_blank">Gabriel Aquino</a> 2018.</p>
         </div>
     </body>
 </html>
